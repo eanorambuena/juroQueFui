@@ -1,2 +1,2 @@
-# emmyjs.github.io
-Emmy.js webpage
+# juroQueFui
+Plataforma de gestión de asistencia de forma semiautomática

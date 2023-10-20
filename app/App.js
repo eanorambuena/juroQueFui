@@ -1,4 +1,5 @@
-import { load } from "../emmy.js";
+import { load } from "emmy-dom";
+import "./components/TextArea";
 
 load('/Home.html', 'Home');
 load('/About.html', 'About');
