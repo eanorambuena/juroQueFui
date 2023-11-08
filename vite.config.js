@@ -1,3 +1,4 @@
 export default {
-    base: '/juroQueFui/'
+    base: '/juroQueFui/',
+    publicDir: 'public'
 }
