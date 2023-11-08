@@ -12,14 +12,14 @@ function App () {
 
   return /*html*/`
     <nav>
-      <a href="/" onclick="route(event)">Home</a>
-      <a href="/about" onclick="route(event)">About</a>
-      <a href="/contact" onclick="route(event)">Contact</a>
+      <a href="/juroQueFui/" onclick="route(event)">Home</a>
+      <a href="/juroQueFui/about" onclick="route(event)">About</a>
+      <a href="/juroQueFui/contact" onclick="route(event)">Contact</a>
     </nav>
-    <Route href="/" to="Home"></Route>
-    <Route href="/about" to="About"></Route>
-    <Route href="/404" to="Code404"></Route>
-    <Route href="/contact" to="Contact"></Route>
+    <Route href="/juroQueFui/" to="Home"></Route>
+    <Route href="/juroQueFui/about" to="About"></Route>
+    <Route href="/juroQueFui/404" to="Code404"></Route>
+    <Route href="/juroQueFui/contact" to="Contact"></Route>
     <Router></Router> 
   `;
 }
