@@ -5,7 +5,7 @@ function TextArea () {
   this.className = 'w-full h-32';
 
   return () => /*html*/`
-    <textarea class="${this.className}"></textarea>
+    <textarea class="${this.className}" id="${this.getAttribute('textAreaId') ?? ''}"></textarea>
   `;
 }
 
