@@ -1,10 +1,10 @@
 import { load } from "emmy-dom";
 import "./components/TextArea";
 
-load('/Home.html', 'Home');
-load('/About.html', 'About');
-load('/Contact.html', 'Contact');
-load('/Code404.html', 'Code404');
+load('/juroQueFui/Home.html', 'Home');
+load('/juroQueFui/About.html', 'About');
+load('/juroQueFui/Contact.html', 'Contact');
+load('/juroQueFui/Code404.html', 'Code404');
 
 function App () {
     this.behave('div');
